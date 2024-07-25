@@ -1,0 +1,23 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    // Debug the local app.
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "Local Nodemon",
+      "protocol": "auto",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "debug"],
+      "restart": true,
+      "port": 4848,
+      "console": "integratedTerminal",
+      "localRoot": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "internalConsoleOptions": "neverOpen"
+    }
+  ]
+}

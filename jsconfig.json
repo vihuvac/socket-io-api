@@ -1,0 +1,10 @@
+{
+  // Find out more at:
+  //   - https://code.visualstudio.com/docs/nodejs/working-with-javascript
+  //   - https://code.visualstudio.com/docs/languages/jsconfig
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES6"
+  },
+  "exclude": ["node_modules"]
+}

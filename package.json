@@ -1,0 +1,28 @@
+{
+  "name": "socket-io-api",
+  "version": "1.0.0",
+  "main": "./src/app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "node --watch ./src/app.js",
+    "debug": "nodemon --trace-warnings --legacy-watch --watch ./src --inspect=0.0.0.0:4848 --nolazy ./src/app.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "socket.io"
+  ],
+  "author": {
+    "name": "Víctor Hugo Valle-Castillo",
+    "email": "victouk@gmail.com",
+    "url": "https://github.com/vihuvac"
+  },
+  "dependencies": {
+    "express": "4.19.2",
+    "socket.io": "4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.4"
+  }
+}
